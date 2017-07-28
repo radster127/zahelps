@@ -1,0 +1,145 @@
+
+@import "https://fonts.googleapis.com/css?family=Open+Sans:400,300,500,600,700,800";
+@import "https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900";
+@import "https://fonts.googleapis.com/css?family=Poppins:400,500,300,600,700";
+.preloader {
+    background: #fff none repeat scroll 0 0;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99999;
+}
+.preloader .cssload-speeding-wheel {
+    left: calc(50% - 3.5px);
+    position: absolute;
+    top: calc(50% - 3.5px);
+}
+@font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    src: url("https://fonts.gstatic.com/s/poppins/v1/2fCJtbhSlhNNa6S2xlh9GyEAvth_LlrfE80CYdSH47w.woff2") format("woff2");
+    unicode-range: U+2BC, U+900-97F, U+1CD0-1CF6, U+1CF8-1CF9, U+200B-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+@font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    src: url("https://fonts.gstatic.com/s/poppins/v1/UGh2YG8gx86rRGiAZYIbVyEAvth_LlrfE80CYdSH47w.woff2") format("woff2");
+    unicode-range: U+100-24F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    src: url("https://fonts.gstatic.com/s/poppins/v1/yQWaOD4iNU5NTY0apN-qj_k_vArhqVIZ0nv9q090hN8.woff2") format("woff2");
+    unicode-range: U+0-FF, U+131, U+152-153, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+body {
+    background: #4f5467 none repeat scroll 0 0;
+}
+.logo i {
+    color: #ffffff;
+}
+.navbar-header {
+    background: #fb9678 none repeat scroll 0 0;
+}
+.navbar-top-links > li > a {
+    color: #ffffff;
+}
+.right-sidebar .rpanel-title {
+    background: #fb9678 none repeat scroll 0 0;
+}
+.bg-title .breadcrumb .active {
+    color: #fb9678;
+}
+.sidebar {
+    background: #4f5467 none repeat scroll 0 0;
+    box-shadow: 1px 0 20px rgba(0, 0, 0, 0.08);
+}
+.sidebar .label-custom {
+    background: #01c0c8 none repeat scroll 0 0;
+}
+#side-menu li a {
+    color: #a6acbc;
+}
+#side-menu li a {
+    border-left: 0 solid #4f5467;
+    color: #a6acbc;
+}
+#side-menu > li > a {
+    border-color: #4f5467;
+}
+#side-menu > li > a:hover, #side-menu > li > a:focus {
+    background: rgba(0, 0, 0, 0.07) none repeat scroll 0 0;
+    border-color: #4f5467;
+}
+#side-menu > li > a.active {
+    border-bottom: 2px solid #fb9678;
+    color: #ffffff;
+    font-weight: 500;
+}
+#side-menu > li > a.active i {
+    color: #fb9678;
+}
+#side-menu ul > li > a:hover {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    color: #fb9678;
+}
+#side-menu ul > li > a.active {
+    color: #ffffff;
+    font-weight: 500;
+}
+.sidebar #side-menu > li:hover a {
+    background: #393e4f none repeat scroll 0 0;
+}
+.sidebar #side-menu .user-pro .nav-second-level a:hover {
+    color: #fb9678;
+}
+#side-menu .nav-second-level li:hover > a {
+    color: #fb9678;
+}
+#side-menu .nav-second-level.two-li {
+    background: #393e4f none repeat scroll 0 0;
+}
+@media (min-width: 768px) {
+    .content-wrapper #side-menu li a.active, .content-wrapper #side-menu ul, .content-wrapper .sidebar #side-menu > li:hover {
+        background: #444859 none repeat scroll 0 0;
+    }
+}
+.fix-sidebar .top-left-part {
+    background: #fb9678 none repeat scroll 0 0;
+}
+.bg-theme {
+    background-color: #fb9678 !important;
+}
+.bg-theme-dark {
+    background-color: #01c0c8 !important;
+}
+.chat-list .odd .chat-text {
+    background: #fb9678 none repeat scroll 0 0;
+}
+.btn-custom {
+    background: #fb9678 none repeat scroll 0 0;
+    border: 1px solid #fb9678;
+    color: #ffffff;
+}
+.btn-custom:hover {
+    background: #fb9678 none repeat scroll 0 0;
+    border: 1px solid #fb9678;
+    color: #ffffff;
+    opacity: 0.8;
+}
+.customtab li.active a, .customtab li.active a:hover, .customtab li.active a:focus {
+    border-bottom: 2px solid #fb9678;
+    color: #fb9678;
+}
+.tabs-vertical li.active a, .tabs-vertical li.active a:hover, .tabs-vertical li.active a:focus {
+    background: #fb9678 none repeat scroll 0 0;
+    border-right: 2px solid #fb9678;
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
+    background: #fb9678 none repeat scroll 0 0;
+    color: #ffffff;
+}

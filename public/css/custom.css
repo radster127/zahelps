@@ -1,0 +1,26 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16 Dec, 2016, 7:42:52 AM
+    Author     : ajay
+*/
+
+.site-header .navbar {max-height: 60px;}
+
+.login_form .parsley-required, .login_form .parsley-minlength{
+    left: 0px !important;
+    bottom: -22px !important;
+}
+
+.form-group label{ font-weight: bold; }
+.form-group textarea.form-control{ height: 80px; }
+.form-check label { font-weight: normal; }
+hr{ border-color: rgba(0, 0, 0, 0.3); }
+
+.hide { display: none; }
+.auth .auth-header{background-color: rgba(255, 255, 255, 0.8);}
+.auth .auth-header h6{color:rgba(0, 0, 0, 0.7);}
+.mail-items .mail-item-time { width: 150px;}

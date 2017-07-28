@@ -1,0 +1,74 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11 Oct, 2016, 6:36:21 AM
+    Author     : admin
+*/
+
+/* ==Validation [.form-group]*/
+/* ----------------------------------------------- */
+.parsley-required, .parsley-required li, 
+.parsley-type, .parsley-type li,
+.parsley-minlength, .parsley-minlength li,
+li.parsley-min,
+.parsley-pattern, .parsley-pattern li,
+.parsley-equalto, .parsley-equalto li
+{
+    color: #fff !important;
+}
+.parsley-success .parsley-required, 
+.parsley-success .parsley-type,
+.parsley-success .parsley-pattern,
+.parsley-success .parsley-equalto {
+    display: none !important;
+}
+
+.parsley-errors-list{
+    padding-left: 0px;
+    margin-bottom: 0px !important;
+    clear: both;
+}
+.parsley-required, .parsley-type, .parsley-minlength, .parsley-min, .parsley-equalto, .parsley-pattern{
+    background: #ff0000 none repeat scroll 0 0 padding-box;
+    border-radius: 4px;
+    display: inline-block !important;
+    font-size: 12px;
+    font-weight: 600;
+    /*left: 0;
+    bottom: -22px;*/
+    list-style: outside none none;
+    margin: 0;
+    padding: 2px 10px;
+    position: absolute;
+    z-index: 999;
+}
+
+
+.parsley-required::after, 
+.parsley-type::after,
+.parsley-minlength::after,
+.parsley-min::after,
+.parsley-pattern::after,
+.parsley-equalto::after{
+    border-bottom: 6px solid #ff0000;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    content: "";
+    display: inline-block;
+    left: 3px;
+    position: absolute;
+    top: -6px;
+}
+span.error {
+    margin-left: 15px;
+}
+.howl {
+    background: #353535 none repeat scroll 0 0 padding-box;
+    border: 1px solid #111;
+    border-radius: 4px;
+    list-style: outside none none;
+    padding: 0;
+}

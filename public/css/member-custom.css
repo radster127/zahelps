@@ -1,0 +1,82 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21 Dec, 2016, 10:23:05 AM
+    Author     : admin
+*/
+.top-left-part .logo > img {height: 60px;padding: 5px;}
+label {
+    color: #404040;
+    font-weight: 300 !important;
+}
+.provide_help_button{margin-bottom:10px;font-size:36px;text-transform: uppercase; padding-top: 15px !important;}
+.get_help_button{margin-bottom:10px;font-size:36px;text-transform: uppercase; padding-top: 15px !important;}
+
+#loginform .form-group{ margin-bottom: 10px !important;}
+
+.my-levels ul, .my-levels ol{ margin-bottom: 0px; }
+
+.panel-header { padding: 12px 18px 12px !important; font-weight: 400 !important;}
+
+.paired-panel .panel-button{color:#fff !important;}
+.paired-panel hr{margin-bottom: 10px !important; margin-top: 0px !important;}
+
+.dashboard-white-box .counter{font-size: 20px !important;line-height: 22px;margin-top:0px !important;font-weight:bold;}
+.dashboard-white-box h5{font-size:13px;}
+.front-logo{width:230px;}
+
+@media only screen and (max-width: 767px) {
+    .top-left-part{
+        width: 100px;
+    }
+    .provide_help_button, .get_help_button{
+        font-size: 33px;
+    }
+}
+
+.user-btm-box { margin: 0px -25px 10px;}
+.change_avatar { color: #fff; }
+.my-page .page-news{padding: 0px;}
+.my-page .page-news li h4{color:#fff !important;}
+.my-page .page-news li{list-style-type: none;}
+.my-page .user-info{margin:-25px;padding:25px;}
+.my-page .btn-list .white-box{ padding: 25px 15px; }
+.my-page .btn-list .white-box p{ font-size: 13px !important; padding-top: 7px; margin-bottom: 0px; }
+.my-page h2 { margin-top: 0px; line-height: 24px;}
+.my-page .table tr td, .my-page .table tr th { padding: 10px 8px;}
+.my-page .table { margin-bottom: 0px;}
+.navbar-default .level-menu a span { border-radius: 2px !important; padding: 4px !important;}
+.paired-panel h4{ margin-top: 0px; }
+
+.you_can_transfer_panel a, .white_font{ color: #fff !important; }
+.you_can_transfer_panel a:hover, .white_font:hover{ color: #fff !important; }
+.panel .panel-heading { padding: 15px; }
+.panel .panel-body { padding: 15px; }
+.panel .panel-body h4{ margin-top: 0px; }
+.message-box { height: 100px !important; }
+.margin_0_auto { margin: 0 auto; }
+
+.dashboard-white-box span {
+    font-size: 20px !important;
+    font-weight: bold;
+    line-height: 22px;
+    margin-top: 0 !important;
+    float: right;
+}
+
+.chat-list { max-height: 100% !important; }
+.chat-list .odd .chat-text { background-color: #03A9F3 !important; }
+.chat-list .chat-text { background-color: #ececec !important; }
+.form-control { border-color: #cecece !important; }
+.message_txt { margin-bottom: 8px; }
+hr {border-color: rgba(120, 130, 140, 0.33);}
+.message_txt { max-height: 100px; }
+.inbox-table tr th, .inbox-table tr td { vertical-align: middle !important;}
+.wysihtml5-sandbox body.textarea_editor.form-control.wysihtml5-editor b {font-weight: bold !important;}
+.mail_listing .media-object{ margin-right: 15px; }
+.captcha_image { margin-bottom: 10px; }
+.m-0-auto { margin: 0 auto; }
+#side-menu .label { width: auto !important; }

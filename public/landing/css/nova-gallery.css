@@ -1,0 +1,191 @@
+/*-------
+
+   Gallery
+
+-------*/
+.nova-gallery .nova-gallery-item {
+    position: relative;
+    /*display: inline-block;*/
+    padding-bottom: 30px;
+}
+
+    .nova-gallery .nova-gallery-item > a {
+        position: relative;
+        display: block;
+        background: #fff;
+        outline: none;
+    }
+
+.nova-gallery .nova-gallery-row {
+    margin-bottom: -30px;
+}
+
+.nova-gallery .nova-gallery-item img {
+    opacity: 1;
+    -webkit-transition: .2s opacity ease-in-out;
+    transition: .2s opacity ease-in-out;
+}
+
+.nova-gallery .nova-gallery-item > a:hover img {
+    opacity: 0.9;
+}
+
+.nova-gallery .nova-gallery-item .icon {
+    position: absolute;
+    font-size: 30px;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    opacity: 0;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    -webkit-transition: .2s opacity ease-in-out;
+    transition: .2s opacity ease-in-out;
+}
+
+.nova-gallery .nova-gallery-item > a:hover .icon {
+    opacity: 1;
+}
+
+.nova-gallery-img-title {
+    width: 100%;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+/* remove spacing */
+.nova-gallery .nova-gallery-row.no-gutter {
+    margin: 0;
+}
+
+    .nova-gallery .nova-gallery-row.no-gutter .nova-gallery-item {
+        padding: 0;
+    }
+
+/* container */
+.nova-gallery .container.nova-gallery-layout-default {
+    padding: 93px 0;
+}
+
+/* fix horizontal scrollbar */
+.nova-gallery .nova-gallery-layout-default,
+.nova-gallery .nova-gallery-layout-article {
+    overflow: hidden;
+}
+
+    /* article layout */
+    .nova-gallery .nova-gallery-layout-article > div {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+
+/* lightbox */
+.nova-gallery .modal {
+    position: fixed;
+    overflow: hidden;
+    padding-right: 0 !important;
+}
+
+.nova-gallery .modal-body {
+    padding: 0;
+}
+
+    .nova-gallery .modal-body img {
+        width: 100%;
+    }
+
+.nova-gallery .modal .close {
+    position: absolute;
+    background-image: none;
+    font-size: 20px;
+    width: 54px;
+    height: 54px;
+    top: 20px;
+    right: 20px;
+    line-height: 54px;
+    opacity: 1;
+    color: #fff;
+    border: 2px solid #fff;
+    text-align: center;
+    text-shadow: none;
+    z-index: 5;
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    -o-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
+}
+
+    .nova-gallery .modal .close:hover {
+        background: #fff;
+        color: #000;
+    }
+
+/* modal back color opacity */
+.modal-backdrop.in {
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+
+@media (min-width: 991px) and (max-width: 1201px) {
+    .nova-gallery .nova-gallery-item img {
+        width: 84%;
+    }
+
+    .nova-gallery .nova-gallery-item {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1201px) {
+    .nova-gallery-item {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .nova-gallery .nova-gallery-item {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 768px) {
+    .nova-gallery .modal-dialog {
+        margin: 10px auto;
+    }
+
+    .nova-gallery .carousel-indicators,
+    .nova-gallery .carousel-control,
+    .nova-gallery .modal .close {
+        position: fixed;
+    }
+
+    .nova-gallery .nova-gallery-item {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+}
+
+/* fix fade in effect */
+.nova-gallery .modal.fade .modal-dialog {
+    margin-top: -100px;
+    -webkit-transition: margin-top 0.3s ease-out;
+    -moz-transition: margin-top 0.3s ease-out;
+    -o-transition: margin-top 0.3s ease-out;
+    transition: margin-top 0.3s ease-out;
+}
+
+.nova-gallery .modal.in .modal-dialog,
+.nova-gallery .modal.fade .modal-dialog {
+    -webkit-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none;
+}
+
+.nova-gallery .modal.in .modal-dialog {
+    margin-top: 30px;
+}
